@@ -56,8 +56,8 @@ st.title("House Price Prediction in Tehran")
 st.write("Enter the details of the house below to get the predicted price.")
 
 # Input fields
-area = st.number_input("Area (sqm):", min_value=1, value=50)
-room = st.number_input("Number of Rooms:", min_value=1, value=1)
+area = st.number_input("Area (sqm):", min_value=1, value=40)
+room = st.number_input("Number of Rooms:", min_value=0, value=0)
 parking = st.selectbox("Parking:", ["Yes", "No"])
 warehouse = st.selectbox("Warehouse:", ["Yes", "No"])
 elevator = st.selectbox("Elevator:", ["Yes", "No"])
